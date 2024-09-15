@@ -1,0 +1,116 @@
+.open-modal {
+    width: 420px;
+    height: 48px;
+    background-color: #000000;
+    font-size: 18px;
+    color: #FFFFFF;
+    border: none;
+    margin: 29px 26px;
+    cursor: pointer;
+}
+
+dialog {
+    border: none;
+    background-color: #FFFFFF;
+    width: 592px;
+    height: 388px;
+}
+
+dialog::backdrop {
+    background-color: rgba(0, 0, 0, 0.47);
+}
+
+.fade {
+    animation: fade .5s ease;
+}
+
+@keyframes fade {
+    from {
+        opacity: .1;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+.close-modal button{
+    border: none;
+    background-color: #FFFFFF;
+    cursor: pointer;
+    position: absolute;
+    top: 16px;
+    right: 16px;
+}
+
+h2 {
+    width: 281px;
+    height: 44px;
+    font-size: 36px;
+    padding: 30px 86px 0;
+}
+
+.modal-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 9px;
+}
+
+.modal-btn input {
+    width: 420px;
+    height: 48px;
+    background-color: #DADADA;
+    border: none;
+}
+
+.modal-btn button {
+    width: 420px;
+    height: 48px;
+    color: #FFFFFF;
+    font-size: 18px;
+    background-color: #0094FF;
+    border: none;
+    cursor: pointer;
+}
+
+/* .modal {
+    width: 592px;
+    height: 918px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-color: #000000;
+    display: none;
+}
+
+ol {
+    font-size: 36px;
+    color: #FFFFFF;
+}
+
+ul {
+    color: #FFFFFF;
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.modal button {
+    color: #FFFFFF;
+    border: none;
+    background-color: #000000;
+    position: absolute;
+    top: 27px;
+    right: 21px;
+    cursor: pointer;
+}
+
+.modal-text {
+    position: absolute;
+    top: 210px;
+    left: 56px;
+}
+
+.show {
+    display: block;
+} */
